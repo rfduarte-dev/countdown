@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  color: #380036;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 800px;
+  width: 80%;
+  display: table;
+  position: relative;
+  background-color: #fff;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 40px;
+  padding: 30px 30px 0 30px;
+}
+
+.countdown {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    #0cbaba,
+    #0cbaba,
+    transparent
+  );
+  opacity: 0.5;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 20px;
+  line-height: 30px;
+}
+
+h2 i {
+  font-size: 25px;
+  position: relative;
+  bottom: 2px;
+  padding: 15px;
+  color: #0cbaba;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 30px 30px 30px;
+  justify-content: space-evenly;
+}
+
+input[type="text"],
+input[type="date"] {
+  border-radius: 10px;
+  border: 1.5px solid #0cbaba;
+}
+
+input[type="date"] {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 30%;
+  height: 40px;
+}
+
+.btn-input {
+  width: 15%;
+  border-radius: 10px;
+  color: #0cbaba;
+  background-color: #fff;
+  border: 1.5px solid #0cbaba;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.btn-input:hover {
+  width: 15%;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #0cbaba;
+  border: none;
+}
+
+.form .new-title {
+  padding-left: 20px;
+  width: 50%;
+  height: 40px;
+}
+
+.num {
+  display: table;
+}
+
+.num span {
+  font-size: 60px;
+}
